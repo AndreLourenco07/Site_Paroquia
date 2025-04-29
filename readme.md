@@ -17,7 +17,7 @@ git init
 
 Adicionar os arquivos
 ```bash
-git git add .
+git add .
 ```
 
 Realizar o commit dos arquivos
@@ -27,5 +27,5 @@ git commit -m "nome que desejar"
 
 Por fim da o Push, subindo os arquivos para o github
 ```bash
-git git push -u origin main
+git push -u origin main
 ```
