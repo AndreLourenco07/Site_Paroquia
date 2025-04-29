@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI';
+}
+
+img.logo {
+    width: 64px;
+    height: 80px;
+    padding-left: 40px;    
+    padding-top: 10px;
+}
+
+h1 {
+    color: #b22d30;    
+    text-align: left;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+div.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    height: 15%;
+    align-items: center;
+    z-index: 1000; /* Garante que fique na frente do restante do conteúdo */
+    border-bottom: 1px solid #ccc; /* Opcional: para destacar a separação do cabeçalho */
+}
+
+div.conteudo {
+    display: inline-block;    
+    color: #b22d30;
+    width: 70%;
+    height: 100%;
+    border: 1px solid orange;
+}
+
+div.extras {
+    display: inline-block;    
+    color: #b22d30;
+    width: 29%;
+    height: 100%;
+    border: 1px solid orange;
+}
+
+section.corpo {
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 20px;
+    height: 90%;
+    border: 1px solid black;
+}
+
+footer.rodape{    
+    background-color: #ffcc2a;
+    color: white;
+    text-align: center;
+}
